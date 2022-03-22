@@ -346,6 +346,10 @@ header {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+.section-airpods-pro .pro-left {
+    margin-right: 56px
+}
+
 
 /*@media screen and(max-width: 767px){
     header{
