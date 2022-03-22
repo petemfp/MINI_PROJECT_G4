@@ -1,52 +1,55 @@
 /*global*/
+
 *,
 *::before,
-*::after{
-    margin: 0 ;
+*::after {
+    margin: 0;
     padding: 0;
 }
 
-html{
-    font-size:10px;
+html {
+    font-size: 10px;
     font-family: 'MyWebFont', BlinkMacSystemFont, sans-serif;
 }
 
-
 @font-face {
     font-family: 'MyWebFont';
-   
     src: url('/Font/YosemiteSanFranciscoFont-master/System/San/Francisco/Display/Regular.ttf');
     src: url('/Font/YosemiteSanFranciscoFont-master/System/San/Francisco/Display/Bold.ttf');
     src: url('/Font/YosemiteSanFranciscoFont-master/System/San/Francisco/Display/Thin.ttf');
     src: url('/Font/YosemiteSanFranciscoFont-master/System/San/Francisco/Display/Ultralight.ttf');
 }
 
-a{
+a {
     display: block;
     text-decoration: none;
 }
 
-.my-container{
+.my-container {
     max-width: 98rem;
     margin: 0 auto;
     padding: 0 2.2rem;
 }
+
+
 /*Header*/
-header{
-position: fixed;
-top: 0;
-z-index: 1400;
-width: 100%;
-height: 4.4rem;
-background-color: rgba(0,0,0,.8);
-backdrop-filter: blur(2rem);   
-}
-.ribbon{
-    grid-row: 1; 
-    grid-column: 1/4; 
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 4.4rem;
+    background-color: rgba(0, 0, 0, .8);
+    backdrop-filter: blur(2rem);
 }
 
-.my-nav-list{
+.ribbon {
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
+.my-nav-list {
     list-style: none;
     display: flex;
     align-items: center;
@@ -54,111 +57,123 @@ backdrop-filter: blur(2rem);
     margin: 0 - 1rem;
 }
 
-.my-nav-list-mobile{
+.my-nav-list-mobile {
     display: none;
 }
-.my-nav-link{
+
+.my-nav-link {
     font-size: 1.4rem;
     color: white;
     padding: 0 1rem;
     transition: opacity .5s;
 }
 
-.my-nav-link:hover{
+.my-nav-link:hover {
     opacity: .7;
 }
-.my-nav-link-apple{
+
+.my-nav-link-apple {
     width: 1.6rem;
     height: 4.4rem;
     background: url("images/icons/apple.svg") center no-repeat;
 }
 
-.my-nav-link-search{
+.my-nav-link-search {
     width: 1.6rem;
     height: 4.4rem;
     background: url("images/icons/search.svg") center no-repeat;
 }
 
-.my-nav-link-bag{
+.my-nav-link-bag {
     width: 1.6rem;
     height: 4.4rem;
     background: url("images/icons/bag.svg") center no-repeat;
 }
 
-.iphone-13-pro{
+.iphone-13-pro {
     height: 69.2rem;
     background: url("images/hero/iphone-11-pro/iphone_11_pro_large.jpg");
     margin-top: 4.4rem;
- 
 }
 
 
 /*Iphone 13 Pro section*/
-.my-title{
-    color:white;
+
+.my-title {
+    color: white;
     text-align: center;
     padding-top: 5.5rem;
 }
-.my-title-heading{
+
+.my-title-heading {
     font-size: 5.6rem;
     line-height: 1.07143;
     letter-spacing: -.005rem;
 }
 
-.my-title-sub-heading{
+.my-title-sub-heading {
     font-size: 2.65rem;
     margin-top: .6rem;
     letter-spacing: .008rem;
     font-weight: 400;
 }
-.my-title-price{
+
+.my-title-price {
     font-size: 1.7rem;
     color: #888;
     margin-top: .68rem;
 }
 
-.cta{
+.cta {
     text-align: center;
     margin-top: 1.8rem;
 }
-.cta-link{
+
+.cta-link {
     color: #66bbff;
     font-size: 2.1rem;
     display: inline-block;
 }
 
-.cta-link:nth-child(2){
+.cta-link:nth-child(2) {
     margin-left: 2.6rem;
 }
-.cta-link:hover{
+
+.cta-link:hover {
     border-bottom: 2px solid #66bbff;
 }
 
+
 /*iphoe 13 section*/
-.iphone-13{
+
+.iphone-13 {
     background: url("images/hero/iphone-11/iphone_11_large.jpg");
 }
 
-.my-title-dark{
+.my-title-dark {
     color: #000;
 }
-.cta-link-darker{
+
+.cta-link-darker {
     color: #0077C9;
 }
-.cta-link-darker:hover{
+
+.cta-link-darker:hover {
     border-bottom-color: #0077C9;
 }
-.watch{
+
+.watch {
     background: url("images/hero/watch/watch_large.jpg");
 }
-.my-title-heading-watch{
+
+.my-title-heading-watch {
     height: 7.8rem;
     background: url("images/hero/watch/logo_watch_large.png") center no-repeat;
     background-size: auto 7.8rem;
     margin-top: 1.6rem;
 }
 
-.hero{
+.hero {
     height: 69.2rem;
     background-size: auto 73.6rem;
     background-position: center;
@@ -167,168 +182,171 @@ backdrop-filter: blur(2rem);
     border-bottom: .6rem solid #fff;
 }
 
-.iphone-13-pro{
+.iphone-13-pro {
     border-top: none;
 }
+
+
 /*end*/
+
 @media screen and (max-width: 1068px) {
-    
-    .iphone-13-pro{
+    .iphone-13-pro {
         background: url("images/hero/iphone-11-pro/iphone_11_pro_medium.jpg");
     }
-    .iphone-13{
+    .iphone-13 {
         background: url("images/hero/iphone-11/iphone_11_medium.jpg");
     }
-    .watch{
+    .watch {
         background: url("images/hero/watch/watch_medium.jpg");
     }
-    .hero{
+    .hero {
         height: 65rem;
         background-size: auto 69.8rem;
         background-position: bottom center;
         background-repeat: no-repeat;
     }
-    .title-heading{
+    .title-heading {
         font-size: 4.4rem;
     }
-    .title-sub-heading{
+    .title-sub-heading {
         font-size: 2.4rem;
     }
-    .cta-link:nth-child(2){
+    .cta-link:nth-child(2) {
         margin-left: 2rem;
     }
-    .title-heading-watch{
+    .title-heading-watch {
         height: 6.2rem;
         background: url("images/hero/watch/logo_watch_medium.png") center no-repeat;
         background-size: auto 6.2rem;
     }
 }
-.store-header, .store-subheader {
+
+.store-header,
+.store-subheader {
     font-size: 48px;
     line-height: 1.08349;
     font-weight: 600;
     letter-spacing: -.003em;
-    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     display: inline;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
 }
-.ribbon{
+
+.ribbon {
     padding: .76471em0;
 }
+
 .item1 {
-     grid-area: header;
+    grid-area: header;
 }
 
 .grid-container {
     display: grid;
-    grid-template-areas:
-      'header header header header header header'
-      'menu main main main right right'
-      'menu footer footer footer footer footer';
+    grid-template-areas: 'header header header header header header' 'menu main main main right right' 'menu footer footer footer footer footer';
     gap: 100px;
     padding: 10px;
     grid-template-columns: auto auto auto;
+}
 
-    
-  }
-  .grid-container > div {
+.grid-container>div {
     background-color: rgba(255, 255, 255, 0.931);
     text-align: center;
     padding: 50px 0;
     font-size: 30px;
     background-position: center;
-    
-  }
-.help-store-pic{
+}
+
+.help-store-pic {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-
 }
-.my-title-sub-store{
+
+.my-title-sub-store {
     padding-top: 50px;
     text-align: left;
-  background: -webkit-linear-gradient(#6e6e73,#000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#6e6e73, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 .box {
     display: flex;
-    align-items:center;
-    
-    
- }
- .img-store{
+    align-items: center;
+}
+
+.img-store {
     width: 120px;
     height: 70px;
- }
+}
 
- .my-container2{
+.my-container2 {
     max-width: 170rem;
     margin: 0 auto;
     padding: 0 2.2rem;
     align-content: center;
 }
-.my-container3{
+
+.my-container3 {
     max-width: 170rem;
     margin: 0 auto;
     padding: 0 2.2rem;
-
-    
 }
-.owl-prev{
+
+.owl-prev {
     left: -30px;
 }
-.owl-next{
+
+.owl-next {
     right: -30px;
 }
-.owl-prev, .owl-next{
+
+.owl-prev,
+.owl-next {
     position: absolute;
     top: 30%;
 }
+
 .rcorners {
     border-radius: 25px;
     border: 2px solid #6e6e73;
-    padding: 20px; 
-  
-  }
-.underline{
-   
+    padding: 20px;
+}
+
+.underline {
     border-bottom: 2px solid rgba(218, 218, 218, 0.767);
 }
 
-
-
-.container2x2{
+.container2x2 {
     margin: 20px auto;
-    width:400px;
-    height:200px;
-    background-color:#fff;
-    display:grid;
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    display: grid;
     grid-template-columns: 200px 200px;
     grid-row: auto auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     text-align: center;
-
 }
-.box2x2{
-     
-      padding:20px;
-      border-radius:10px;
-      border:2px solid rgb(230, 230, 230);
-      display:flex;
-      justify-content:center;
 
-      font-family:sans-serif;
-    }
-  
-.rom{
+.box2x2 {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.rom {
     background-color: rgba(255, 255, 255, 0.8);
 }
+
+
 /*@media screen and(max-width: 767px){
     header{
         height: 4.8rem;
@@ -404,4 +422,3 @@ backdrop-filter: blur(2rem);
         z-index: 1500;
     }
 }
-    
