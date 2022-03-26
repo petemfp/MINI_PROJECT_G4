@@ -1,3 +1,19 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['email'])) {
+  $_SESSION['msg'] = "You must log in first";
+  header('location: login.php');
+}
+
+if (isset($_GET['logout'])) {
+  session_destroy();
+  unset($_SESSION['email']);
+  header('location: login.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <!-- saved from url=(0025)https://www.apple.com/th/ -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="th-TH" lang="th-TH" prefix="og: http://ogp.me/ns#" class="js no-touch progressive-image no-reduced-motion no-edge no-ie css-mask inline-video desktop no-retina no-safari no-old-safari chrome no-ios no-android no-firefox no-fallback no-aow windows enhanced-layout no-tablet" data-layout-name="evergreen-avail">
@@ -181,8 +197,8 @@
         </li>
 
         <li class="ac-gn-bagview-nav-item-signOut">
-          <a href="index.php?logout='1'" class="ac-gn-bagview-button ac-gn-bagview-nav-link-signOut" style="color: #fff">
-            Logout
+          <a href="index.php?logout='1'" class="ac-gn-bagview-button2 ac-gn-bagview-nav-link-signOut">
+            ออกจากระบบ
             <!--logged information-->
             <?php if (isset($_SESSION['email'])) : ?>
               <p class="fs-4 fw-bold text-danger"></p>

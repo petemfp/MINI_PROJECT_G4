@@ -204,7 +204,37 @@ if (isset($_GET['logout'])) {
           </div>
           <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
         </li>
+
+        <li class="ac-gn-bagview-nav-item-signOut">
+          <a href="index.php?logout='1'" class="ac-gn-bagview-button2 ac-gn-bagview-nav-link-signOut">
+            ออกจากระบบ
+            <!--logged information-->
+            <?php if (isset($_SESSION['email'])) : ?>
+              <p class="fs-4 fw-bold text-danger"></p>
+            <?php endif ?>
+          </a>
+        </li>
       </ul>
+
+      <!--noti msg-->
+      <?php if (isset($_SESSION['success'])) : ?>
+
+        <script>
+          var session = '<?php echo $_SESSION['success']; ?>';
+          alert(session);
+        </script>
+        <?php unset($_SESSION['success']); ?>
+      <?php endif ?>
+
+      <?php if (isset($_SESSION['error'])) : ?>
+        <div class="error">
+          <script>
+            var session = '<?php echo $_SESSION['error']; ?>';
+            alert(session);
+          </script>
+        </div>
+        <?php unset($_SESSION['error']); ?>
+      <?php endif ?>
 
       <!-- End navbar apple -->
 

@@ -2687,7 +2687,7 @@ h3 #ac-gn-segmentbar sup {
     display: inline-block;
     text-align: center;
     white-space: nowrap;
-    font-size: 17px;
+    font-size: 12px;
     line-height: 1.17648;
     font-weight: 400;
     letter-spacing: -.022em;
@@ -2695,13 +2695,34 @@ h3 #ac-gn-segmentbar sup {
     min-width: 28px;
     padding-left: 8px;
     padding-right: 8px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border-radius: 590px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
     background: #0071e3;
     color: #fff;
-    margin-top: 8px;
 }
+
+#ac-globalnav .ac-gn-bagview-button2 {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    min-width: 28px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 980px;
+    background: #ec0707;
+    color: #fff;
+    margin-top: 10px;
+}
+
 
 #ac-globalnav .ac-gn-bagview-button:hover {
     text-decoration: none
