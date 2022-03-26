@@ -1308,23 +1308,23 @@ h3 #ac-gn-segmentbar sup {
 #ac-globalnav .ac-gn-link-apple {
     background-size: 14px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_apple_image__b5er5ngrzxqq_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_apple_image__b5er5ngrzxqq_large.svg");
     background-position: center center;
     width: 14px
 }
 
 #ac-globalnav.no-svg .ac-gn-link-apple {
-    background-image: url("images/airpods/globalnav_apple_image__b5er5ngrzxqq_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_apple_image__b5er5ngrzxqq_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-apple {
         background-size: 17px 48px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_apple_image__b5er5ngrzxqq_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_apple_image__b5er5ngrzxqq_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-apple {
-        background-image: url("images/airpods/globalnav_apple_image__b5er5ngrzxqq_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_apple_image__b5er5ngrzxqq_small.png")
     }
 }
 
@@ -1337,7 +1337,7 @@ h3 #ac-gn-segmentbar sup {
 #ac-globalnav .ac-gn-link-store {
     background-size: 19px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_links_store_image__c7jy08initqq_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_store_image__c7jy08initqq_large.svg");
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
@@ -1346,24 +1346,24 @@ h3 #ac-gn-segmentbar sup {
 }
 
 #ac-globalnav.no-svg .ac-gn-link-store {
-    background-image: url("images/airpods/globalnav_links_store_image__c7jy08initqq_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_store_image__c7jy08initqq_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-store {
         background-size: 27px 43px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_links_store_image__c7jy08initqq_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_store_image__c7jy08initqq_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-store {
-        background-image: url("images/airpods/globalnav_links_store_image__c7jy08initqq_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_store_image__c7jy08initqq_small.png")
     }
 }
 
 #ac-globalnav .ac-gn-link-mac {
     background-size: 23px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_links_mac_image__dazlko3t9a6a_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_mac_image__dazlko3t9a6a_large.svg");
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
@@ -1372,24 +1372,24 @@ h3 #ac-gn-segmentbar sup {
 }
 
 #ac-globalnav.no-svg .ac-gn-link-mac {
-    background-image: url("images/airpods/globalnav_links_mac_image__dazlko3t9a6a_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_mac_image__dazlko3t9a6a_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-mac {
         background-size: 32px 43px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_links_mac_image__dazlko3t9a6a_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_mac_image__dazlko3t9a6a_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-mac {
-        background-image: url("images/airpods/globalnav_links_mac_image__dazlko3t9a6a_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_mac_image__dazlko3t9a6a_small.png")
     }
 }
 
 #ac-globalnav .ac-gn-link-ipad {
     background-size: 24px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_links_ipad_image__fw9qyj9lloi2_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_ipad_image__fw9qyj9lloi2_large.svg");
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
@@ -1398,24 +1398,24 @@ h3 #ac-gn-segmentbar sup {
 }
 
 #ac-globalnav.no-svg .ac-gn-link-ipad {
-    background-image: url("images/airpods/globalnav_links_ipad_image__fw9qyj9lloi2_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_ipad_image__fw9qyj9lloi2_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-ipad {
         background-size: 32px 43px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_links_ipad_image__fw9qyj9lloi2_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_ipad_image__fw9qyj9lloi2_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-ipad {
-        background-image: url("images/airpods/globalnav_links_ipad_image__fw9qyj9lloi2_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_ipad_image__fw9qyj9lloi2_small.png")
     }
 }
 
 #ac-globalnav .ac-gn-link-iphone {
     background-size: 38px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_links_iphone_image__ko7x4isga4ia_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_iphone_image__ko7x4isga4ia_large.svg");
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
@@ -1424,24 +1424,24 @@ h3 #ac-gn-segmentbar sup {
 }
 
 #ac-globalnav.no-svg .ac-gn-link-iphone {
-    background-image: url("images/airpods/globalnav_links_iphone_image__ko7x4isga4ia_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_iphone_image__ko7x4isga4ia_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-iphone {
         background-size: 51px 43px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_links_iphone_image__ko7x4isga4ia_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_iphone_image__ko7x4isga4ia_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-iphone {
-        background-image: url("images/airpods/globalnav_links_iphone_image__ko7x4isga4ia_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_iphone_image__ko7x4isga4ia_small.png")
     }
 }
 
 #ac-globalnav .ac-gn-link-watch {
     background-size: 35px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_links_watch_image__gkoblojrlsqe_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_watch_image__gkoblojrlsqe_large.svg");
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
@@ -1450,24 +1450,24 @@ h3 #ac-gn-segmentbar sup {
 }
 
 #ac-globalnav.no-svg .ac-gn-link-watch {
-    background-image: url("images/airpods/globalnav_links_watch_image__gkoblojrlsqe_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_watch_image__gkoblojrlsqe_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-watch {
         background-size: 48px 43px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_links_watch_image__gkoblojrlsqe_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_watch_image__gkoblojrlsqe_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-watch {
-        background-image: url("images/airpods/globalnav_links_watch_image__gkoblojrlsqe_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_watch_image__gkoblojrlsqe_small.png")
     }
 }
 
 #ac-globalnav .ac-gn-link-airpods {
     background-size: 43px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_links_airpods_image__f969s84ivmaa_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_airpods_image__f969s84ivmaa_large.svg");
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
@@ -1476,24 +1476,24 @@ h3 #ac-gn-segmentbar sup {
 }
 
 #ac-globalnav.no-svg .ac-gn-link-airpods {
-    background-image: url("images/airpods/globalnav_links_airpods_image__f969s84ivmaa_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_airpods_image__f969s84ivmaa_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-airpods {
         background-size: 58px 43px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_links_airpods_image__f969s84ivmaa_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_airpods_image__f969s84ivmaa_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-airpods {
-        background-image: url("images/airpods/globalnav_links_airpods_image__f969s84ivmaa_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_airpods_image__f969s84ivmaa_small.png")
     }
 }
 
 #ac-globalnav .ac-gn-link-tvhome {
     background-size: 53px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_links_tvhome_image__zb2ewyxbi6ae_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_tvhome_image__zb2ewyxbi6ae_large.svg");
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
@@ -1502,24 +1502,24 @@ h3 #ac-gn-segmentbar sup {
 }
 
 #ac-globalnav.no-svg .ac-gn-link-tvhome {
-    background-image: url("images/airpods/globalnav_links_tvhome_image__zb2ewyxbi6ae_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_tvhome_image__zb2ewyxbi6ae_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-tvhome {
         background-size: 81px 43px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_links_tvhome_image__zb2ewyxbi6ae_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_tvhome_image__zb2ewyxbi6ae_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-tvhome {
-        background-image: url("images/airpods/globalnav_links_tvhome_image__zb2ewyxbi6ae_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_tvhome_image__zb2ewyxbi6ae_small.png")
     }
 }
 
 #ac-globalnav .ac-gn-link-accessories {
     background-size: 62px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_links_accessories_image__edj0wqmfwxyu_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_accessories_image__edj0wqmfwxyu_large.svg");
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
@@ -1528,24 +1528,24 @@ h3 #ac-gn-segmentbar sup {
 }
 
 #ac-globalnav.no-svg .ac-gn-link-accessories {
-    background-image: url("images/airpods/globalnav_links_accessories_image__edj0wqmfwxyu_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_accessories_image__edj0wqmfwxyu_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-accessories {
         background-size: 91px 43px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_links_accessories_image__edj0wqmfwxyu_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_accessories_image__edj0wqmfwxyu_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-accessories {
-        background-image: url("images/airpods/globalnav_links_accessories_image__edj0wqmfwxyu_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_accessories_image__edj0wqmfwxyu_small.png")
     }
 }
 
 #ac-globalnav .ac-gn-link-onlyonapple {
     background-size: 70px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_links_onlyonapple_image__c4t8k97tougm_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_onlyonapple_image__c4t8k97tougm_large.svg");
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
@@ -1554,24 +1554,24 @@ h3 #ac-gn-segmentbar sup {
 }
 
 #ac-globalnav.no-svg .ac-gn-link-onlyonapple {
-    background-image: url("images/airpods/globalnav_links_onlyonapple_image__c4t8k97tougm_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_onlyonapple_image__c4t8k97tougm_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-onlyonapple {
         background-size: 103px 43px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_links_onlyonapple_image__c4t8k97tougm_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_onlyonapple_image__c4t8k97tougm_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-onlyonapple {
-        background-image: url("images/airpods/globalnav_links_onlyonapple_image__c4t8k97tougm_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_onlyonapple_image__c4t8k97tougm_small.png")
     }
 }
 
 #ac-globalnav .ac-gn-link-support {
     background-size: 78px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_links_support_image__bw9kctll7u3m_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_support_image__bw9kctll7u3m_large.svg");
     background-position: center center;
     background-origin: content-box;
     background-size: cover;
@@ -1580,40 +1580,40 @@ h3 #ac-gn-segmentbar sup {
 }
 
 #ac-globalnav.no-svg .ac-gn-link-support {
-    background-image: url("images/airpods/globalnav_links_support_image__bw9kctll7u3m_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_support_image__bw9kctll7u3m_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-support {
         background-size: 113px 43px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_links_support_image__bw9kctll7u3m_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_support_image__bw9kctll7u3m_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-support {
-        background-image: url("images/airpods/globalnav_links_support_image__bw9kctll7u3m_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_links_support_image__bw9kctll7u3m_small.png")
     }
 }
 
 #ac-globalnav .ac-gn-link-search {
     background-size: 15px 88px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_search_image__cbllq1gkias2_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_image__cbllq1gkias2_large.svg");
     background-position: center center;
     width: 15px
 }
 
 #ac-globalnav.no-svg .ac-gn-link-search {
-    background-image: url("images/airpods/globalnav_search_image__cbllq1gkias2_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_image__cbllq1gkias2_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-search {
         background-size: 14px 14px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_search_image__cbllq1gkias2_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_image__cbllq1gkias2_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-search {
-        background-image: url("images/airpods/globalnav_search_image__cbllq1gkias2_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_image__cbllq1gkias2_small.png")
     }
 }
 
@@ -1626,23 +1626,23 @@ h3 #ac-gn-segmentbar sup {
 #ac-globalnav .ac-gn-link-bag {
     background-size: 13px 44px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_bag_image__yzte50i47ciu_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_bag_image__yzte50i47ciu_large.svg");
     background-position: center center;
     width: 13px
 }
 
 #ac-globalnav.no-svg .ac-gn-link-bag {
-    background-image: url("images/airpods/globalnav_bag_image__yzte50i47ciu_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_bag_image__yzte50i47ciu_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-link-bag {
         background-size: 15px 48px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_bag_image__yzte50i47ciu_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_bag_image__yzte50i47ciu_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-link-bag {
-        background-image: url("images/airpods/globalnav_bag_image__yzte50i47ciu_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_bag_image__yzte50i47ciu_small.png")
     }
 }
 
@@ -3655,7 +3655,7 @@ h3 #ac-gn-segmentbar sup {
     left: 0;
     background-size: 15px 88px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_search_image__cbllq1gkias2_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_image__cbllq1gkias2_large.svg");
     background-position: 12.5px -44px;
     background-repeat: no-repeat;
     position: absolute;
@@ -3670,17 +3670,17 @@ h3 #ac-gn-segmentbar sup {
 }
 
 #ac-globalnav.no-svg .ac-gn-searchform-submit {
-    background-image: url("images/airpods/globalnav_search_image__cbllq1gkias2_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_image__cbllq1gkias2_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-searchform-submit {
         background-size: 14px 14px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_search_image__cbllq1gkias2_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_image__cbllq1gkias2_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-searchform-submit {
-        background-image: url("images/airpods/globalnav_search_image__cbllq1gkias2_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_image__cbllq1gkias2_small.png")
     }
 }
 
@@ -3781,10 +3781,10 @@ h3 #ac-gn-segmentbar sup {
         height: 16px;
         background-size: 15px 16px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_search_reset__98n5h3q5beq2_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_reset__98n5h3q5beq2_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-searchform-reset-background {
-        background-image: url("images/airpods/globalnav_search_reset__98n5h3q5beq2_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_reset__98n5h3q5beq2_small.png")
     }
 }
 
@@ -4060,23 +4060,23 @@ h3 #ac-gn-segmentbar sup {
 #ac-globalnav .ac-gn-searchresults-link-suggestions {
     background-size: 15px 88px;
     background-repeat: no-repeat;
-    background-image: url("images/airpods/globalnav_search_suggestions__b9upfuyrhhiq_large.svg");
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_suggestions__b9upfuyrhhiq_large.svg");
     padding-left: 70px;
     background-position: 47px -8px
 }
 
 #ac-globalnav.no-svg .ac-gn-searchresults-link-suggestions {
-    background-image: url("images/airpods/globalnav_search_suggestions__b9upfuyrhhiq_large.png")
+    background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_suggestions__b9upfuyrhhiq_large.png")
 }
 
 @media only screen and (max-width: 833px) {
     #ac-globalnav .ac-gn-searchresults-link-suggestions {
         background-size: 15px 86px;
         background-repeat: no-repeat;
-        background-image: url("images/airpods/globalnav_search_suggestions__b9upfuyrhhiq_small.svg")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_suggestions__b9upfuyrhhiq_small.svg")
     }
     #ac-globalnav.no-svg .ac-gn-searchresults-link-suggestions {
-        background-image: url("images/airpods/globalnav_search_suggestions__b9upfuyrhhiq_small.png")
+        background-image: url("http://localhost/MINI_PROJECT_G4/images/airpods/globalnav_search_suggestions__b9upfuyrhhiq_small.png")
     }
 }
 

@@ -66,7 +66,7 @@ include('server.php');
                     <a href="#" class="my-nav-link">Watch</a>
                     </li>
                     <li class="my-nav-item">
-                        <a href="airpods.html" class="my-nav-link">AirPods</a>
+                        <a href="AirPods.php" class="my-nav-link">AirPods</a>
                     </li>
                     <li class="my-nav-item">
                         <a href="TV.html" class="my-nav-link">TV</a>
@@ -75,7 +75,7 @@ include('server.php');
                         <a href="#" class="my-nav-link">Music</a>
                     </li>
                     <li class="my-nav-item">
-                        <a href="accessories.html" class="my-nav-link">Accessories</a>
+                        <a href="Accessories.html" class="my-nav-link">Accessories</a>
                     </li>
                         <a href="#" class="my-nav-link">Support</a>
                     </li>

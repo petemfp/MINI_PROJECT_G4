@@ -1,18 +1,19 @@
-<?php 
-    session_start();
+<?php
+session_start();
 
-    if (!isset($_SESSION['email'])) {
-        $_SESSION['msg'] = "You must log in first";
-        header('location: login.php');
-    }
+if (!isset($_SESSION['email'])) {
+    $_SESSION['msg'] = "You must log in first";
+    header('location: login.php');
+}
 
-    if (isset($_GET['logout'])) {
-        session_destroy();
-        unset($_SESSION['email']);
-        header('location: login.php');
-    }
+if (isset($_GET['logout'])) {
+    session_destroy();
+    unset($_SESSION['email']);
+    header('location: login.php');
+}
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,13 +63,10 @@
                         <a href="#" class="my-nav-link">iPhone</a>
                     </li>
                     <li class="my-nav-item">
-                    <a href="#" class="my-nav-link">Watch</a>
+                        <a href="#" class="my-nav-link">Watch</a>
                     </li>
                     <li class="my-nav-item">
-                        <a href="airpods.html" class="my-nav-link">AirPods</a>
-                    </li>
-                    <li class="my-nav-item">
-                        <a href="airpods.html" class="my-nav-link">AirPods</a>
+                        <a href="AirPods.php" class="my-nav-link">AirPods</a>
                     </li>
                     <li class="my-nav-item">
                         <a href="TV.html" class="my-nav-link">TV</a>
@@ -77,19 +75,18 @@
                         <a href="#" class="my-nav-link">Music</a>
                     </li>
                     <li class="my-nav-item">
-                        <a href="accessories.html" class="my-nav-link">Accessories</a>
+                        <a href="Accessories.html" class="my-nav-link">Accessories</a>
                     </li>
-<<<<<<< HEAD:index.php
-                        <a href="#" class="my-nav-link">Support</a>
+                    <!--  <<<<<<< HEAD:index.php  -->
+                    <a href="#" class="my-nav-link">Support</a>
                     </li>
 
                     <li class="my-nav-item nav-item dropdown">
-=======
                     <li class="my-nav-item">
                         <a href="#" class="my-nav-link">Support</a>
                     </li>
                     <li class="my-nav-item">
->>>>>>> 0309e109652c4d78bb8439615d61c45932416703:index.html
+                        <!--  >>>>>>> 0309e109652c4d78bb8439615d61c45932416703:index.html -->
                         <a href="#" class="my-nav-link-search"></a>
                     </li>
                     <li class="my-nav-item my-nav-item-hidden ">
@@ -110,22 +107,22 @@
     <!--noti msg-->
     <?php if (isset($_SESSION['success'])) : ?>
 
-            <script>
-                var session = '<?php echo $_SESSION['success']; ?>';
-                alert(session);
-            </script>
-    <?php unset($_SESSION['success']);?>
-<?php endif ?>
+        <script>
+            var session = '<?php echo $_SESSION['success']; ?>';
+            alert(session);
+        </script>
+        <?php unset($_SESSION['success']); ?>
+    <?php endif ?>
 
-<?php if (isset($_SESSION['error'])) : ?>
-            <div class="error">
+    <?php if (isset($_SESSION['error'])) : ?>
+        <div class="error">
             <script>
                 var session = '<?php echo $_SESSION['error']; ?>';
                 alert(session);
             </script>
-            </div>
-            <?php unset($_SESSION['error']);?>
-<?php endif ?>
+        </div>
+        <?php unset($_SESSION['error']); ?>
+    <?php endif ?>
 
 
     <section class="hero iphone-13-pro">
@@ -160,13 +157,12 @@
         <div class="my-container">
             <div class="my-title my-title-dark">
                 <h2 class="my-title-heading-watch"></h2>
-<<<<<<< HEAD:index.php
-                <h3 class="my-title-sub-heading">With the new always-On Retina display. <br>
+                <<<<<<< HEAD:index.php <h3 class="my-title-sub-heading">With the new always-On Retina display. <br>
                     You've never seen a watch like this.</h3>
-=======
-                <h3 class="my-title-sub-heading">With the new always-On Retina display. <br> You've never seen a watch like this.</h3>
->>>>>>> 0309e109652c4d78bb8439615d61c45932416703:index.html
-                <p class="my-title-price">From ฿2,590.00/mo</p>
+                    =======
+                    <h3 class="my-title-sub-heading">With the new always-On Retina display. <br> You've never seen a watch like this.</h3>
+                    >>>>>>> 0309e109652c4d78bb8439615d61c45932416703:index.html
+                    <p class="my-title-price">From ฿2,590.00/mo</p>
             </div>
             <div class="cta">
                 <a href="#" class="cta-link cta-link-darker">Learn more</a>
