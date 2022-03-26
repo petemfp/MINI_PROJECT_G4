@@ -179,7 +179,37 @@
           </div>
           <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
         </li>
+
+        <li class="ac-gn-bagview-nav-item-signOut">
+          <a href="index.php?logout='1'" class="ac-gn-bagview-button ac-gn-bagview-nav-link-signOut" style="color: #fff">
+            Logout
+            <!--logged information-->
+            <?php if (isset($_SESSION['email'])) : ?>
+              <p class="fs-4 fw-bold text-danger"></p>
+            <?php endif ?>
+          </a>
+        </li>
       </ul>
+
+      <!--noti msg-->
+      <?php if (isset($_SESSION['success'])) : ?>
+
+        <script>
+          var session = '<?php echo $_SESSION['success']; ?>';
+          alert(session);
+        </script>
+        <?php unset($_SESSION['success']); ?>
+      <?php endif ?>
+
+      <?php if (isset($_SESSION['error'])) : ?>
+        <div class="error">
+          <script>
+            var session = '<?php echo $_SESSION['error']; ?>';
+            alert(session);
+          </script>
+        </div>
+        <?php unset($_SESSION['error']); ?>
+      <?php endif ?>
 
       <!-- End navbar apple -->
 
@@ -478,403 +508,7 @@
       </div>
     </section>
   </main>
-
-  <footer class="ac-gf-th-size-adjust js" lang="th-TH" id="ac-globalfooter" data-analytics-region="global footer" role="contentinfo" aria-labelledby="ac-gf-label">
-    <div class="ac-gf-content">
-      <h2 class="ac-gf-label" id="ac-gf-label">Apple Footer</h2>
-
-      <section class="ac-gf-sosumi" aria-label="Footnotes">
-        <ul>
-          <li id="footnote-1">
-            *฿99/เดือน หลังหมดช่วงทดลองใช้ฟรี
-            หนึ่งการสมัครสมาชิกต่อกลุ่มการแชร์กันในครอบครัว ข้อเสนอมีระยะเวลา
-            <wbr /><span class="nowrap">3 เดือน</span>หลังการเปิดใช้งานอุปกรณ์<wbr /><span class="nowrap">ที่เข้าเกณฑ์</span>
-            แผนบริการจะมีการต่ออายุโดยอัตโนมัติจนกว่าจะยกเลิก
-            อาจมีการใช้ข้อจำกัดและ <wbr /><span class="nowrap"><a href="https://www.apple.com/th/promo/">ข้อกำหนด</a></span>
-            อื่นๆ
-          </li>
-          <li>
-            Apple TV+ ราคา ฿99/เดือน หลังหมดช่วงทดลองใช้ฟรี
-            หนึ่งการสมัครสมาชิกต่อกลุ่ม<wbr /><span style="white-space: nowrap">การแชร์กัน</span>ในครอบครัว
-            ข้อเสนอมีระยะเวลา 3&nbsp;เดือนหลังการ<wbr /><span style="white-space: nowrap">เปิดใช้งาน</span><wbr /> <span style="white-space: nowrap">อุปกรณ์</span><wbr /><span class="nowrap">ที่เข้าเกณฑ์</span> <wbr /><span class="nowrap">แผนบริการ</span>จะมีการต่ออายุโดยอัตโนมัติ<wbr /><span class="nowrap">จนกว่าจะยกเลิก</span>
-            อาจมีการใช้ข้อจำกัดและ <wbr /><span class="nowrap"><a href="https://www.apple.com/th/promo/"><wbr /><span class="nowrap">ข้อกำหนด</span></a>
-              อื่นๆ</span>
-          </li>
-        </ul>
-      </section>
-
-      <nav class="ac-gf-directory with-5-columns" aria-label="รายการส่วนต่างๆ บนเว็บ Apple" role="navigation">
-        <!--googleoff: all-->
-        <div class="ac-gf-directory-column">
-          <input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-products" />
-          <div class="ac-gf-directory-column-section">
-            <label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-products">
-              <h3 class="ac-gf-directory-column-section-title">
-                เลือกซื้อและเรียนรู้
-              </h3>
-            </label>
-            <a href="https://www.apple.com/th/#ac-gf-directory-column-section-state-products" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
-              <span class="ac-gf-directory-column-section-anchor-label">เปิดเมนู</span>
-            </a>
-            <a href="https://www.apple.com/th/#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
-              <span class="ac-gf-directory-column-section-anchor-label">ปิดเมนู</span>
-            </a>
-            <ul class="ac-gf-directory-column-section-list">
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/shop/goto/store" data-analytics-title="store">ร้าน</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/mac/" data-analytics-title="mac">Mac</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/ipad/" data-analytics-title="ipad">iPad</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/iphone/" data-analytics-title="iphone">iPhone</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/watch/" data-analytics-title="watch">Watch</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/airpods/" data-analytics-title="airpods">AirPods</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/tv-home/" data-analytics-title="tv and home">TV และบ้าน</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/ipod-touch/" data-analytics-title="ipod touch">iPod touch</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/airtag/" data-analytics-title="airtag">AirTag</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/shop/goto/buy_accessories" data-analytics-title="accessories">อุปกรณ์เสริม</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/shop/goto/giftcards" data-analytics-title="gift cards">บัตรของขวัญ</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="ac-gf-directory-column">
-          <input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-services" />
-          <div class="ac-gf-directory-column-section">
-            <label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-services">
-              <h3 class="ac-gf-directory-column-section-title">การบริการ</h3>
-            </label>
-            <a href="https://www.apple.com/th/#ac-gf-directory-column-section-state-services" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
-              <span class="ac-gf-directory-column-section-anchor-label">เปิดเมนู</span>
-            </a>
-            <a href="https://www.apple.com/th/#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
-              <span class="ac-gf-directory-column-section-anchor-label">ปิดเมนู</span>
-            </a>
-            <ul class="ac-gf-directory-column-section-list">
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/apple-music/" data-analytics-title="apple music">Apple&nbsp;Music</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/apple-tv-plus/" data-analytics-title="apple tv plus">Apple&nbsp;TV+</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/apple-arcade/" data-analytics-title="apple arcade">Apple&nbsp;Arcade</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/icloud/" data-analytics-title="icloud">iCloud</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/apple-one/" data-analytics-title="apple one">Apple&nbsp;One</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/apple-books/" data-analytics-title="apple books">Apple&nbsp;Books</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/apple-podcasts/" data-analytics-title="apple podcasts">Apple Podcasts</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/app-store/" data-analytics-title="app store">App&nbsp;Store</a>
-              </li>
-            </ul>
-          </div>
-          <input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-accounts" />
-          <div class="ac-gf-directory-column-section">
-            <label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-accounts">
-              <h3 class="ac-gf-directory-column-section-title">บัญชี</h3>
-            </label>
-            <a href="https://www.apple.com/th/#ac-gf-directory-column-section-state-accounts" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
-              <span class="ac-gf-directory-column-section-anchor-label">เปิดเมนู</span>
-            </a>
-            <a href="https://www.apple.com/th/#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
-              <span class="ac-gf-directory-column-section-anchor-label">ปิดเมนู</span>
-            </a>
-            <ul class="ac-gf-directory-column-section-list">
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://appleid.apple.com/th/" data-analytics-title="manage your apple id" data-analytics-exit-link="">จัดการกับ Apple ID <span class="nowrap">ของคุณ</span></a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/shop/goto/account" data-analytics-title="apple store account">บัญชีสำหรับ Apple Store</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.icloud.com/" data-analytics-title="icloud.com" data-analytics-exit-link="">iCloud.com</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="ac-gf-directory-column">
-          <input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-storeservices" />
-          <div class="ac-gf-directory-column-section">
-            <label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-storeservices">
-              <h3 class="ac-gf-directory-column-section-title">
-                Apple Store
-              </h3>
-            </label>
-            <a href="https://www.apple.com/th/#ac-gf-directory-column-section-state-storeservices" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
-              <span class="ac-gf-directory-column-section-anchor-label">เปิดเมนู</span>
-            </a>
-            <a href="https://www.apple.com/th/#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
-              <span class="ac-gf-directory-column-section-anchor-label">ปิดเมนู</span>
-            </a>
-            <ul class="ac-gf-directory-column-section-list">
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/retail/" data-analytics-title="find a store">ค้นหาร้าน</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/retail/geniusbar/" data-analytics-title="genius bar">Genius Bar</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/today/" data-analytics-title="today at apple">Today at Apple</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://apps.apple.com/th/app/apple-store/id375380948?l=th" data-analytics-title="apple store app" data-analytics-exit-link="">แอป Apple Store</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/shop/goto/ww/financing" data-analytics-title="financing">บริการด้านการเงิน</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/trade-in/" data-analytics-title="apple trade in">Apple&nbsp;Trade&nbsp;In</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/recycling/" data-analytics-title="recycling">โครงการรีไซเคิลของ Apple</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/shop/goto/order/list" data-analytics-title="order status">สถานะคำสั่งซื้อ</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/shop/goto/help" data-analytics-title="shopping help">บริการช่วยเหลือด้าน<span class="nowrap">การซื้อ</span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="ac-gf-directory-column">
-          <input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-business" />
-          <div class="ac-gf-directory-column-section">
-            <label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-business">
-              <h3 class="ac-gf-directory-column-section-title">
-                สำหรับธุรกิจ
-              </h3>
-            </label>
-            <a href="https://www.apple.com/th/#ac-gf-directory-column-section-state-business" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
-              <span class="ac-gf-directory-column-section-anchor-label">เปิดเมนู</span>
-            </a>
-            <a href="https://www.apple.com/th/#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
-              <span class="ac-gf-directory-column-section-anchor-label">ปิดเมนู</span>
-            </a>
-            <ul class="ac-gf-directory-column-section-list">
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/business/" data-analytics-title="apple and business">Apple กับธุรกิจ</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/retail/business/" data-analytics-title="shop for business">เลือกซื้อสินค้าสำหรับธุรกิจ</a>
-              </li>
-            </ul>
-          </div>
-          <input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-education" />
-          <div class="ac-gf-directory-column-section">
-            <label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-education">
-              <h3 class="ac-gf-directory-column-section-title">
-                สำหรับการศึกษา
-              </h3>
-            </label>
-            <a href="https://www.apple.com/th/#ac-gf-directory-column-section-state-education" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
-              <span class="ac-gf-directory-column-section-anchor-label">เปิดเมนู</span>
-            </a>
-            <a href="https://www.apple.com/th/#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
-              <span class="ac-gf-directory-column-section-anchor-label">ปิดเมนู</span>
-            </a>
-            <ul class="ac-gf-directory-column-section-list">
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/education/" data-analytics-title="apple and education">Apple กับการศึกษา</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/shop/goto/educationrouting" data-analytics-title="shop for university">เลือกซื้อสินค้าสำหรับมหาวิทยาลัย</a>
-              </li>
-            </ul>
-          </div>
-          <input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-healthcare" />
-          <div class="ac-gf-directory-column-section">
-            <label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-healthcare">
-              <h3 class="ac-gf-directory-column-section-title">
-                สำหรับการดูแลสุขภาพ
-              </h3>
-            </label>
-            <a href="https://www.apple.com/th/#ac-gf-directory-column-section-state-healthcare" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
-              <span class="ac-gf-directory-column-section-anchor-label">เปิดเมนู</span>
-            </a>
-            <a href="https://www.apple.com/th/#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
-              <span class="ac-gf-directory-column-section-anchor-label">ปิดเมนู</span>
-            </a>
-            <ul class="ac-gf-directory-column-section-list">
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/healthcare/" data-analytics-title="apple in healthcare">Apple กับการดูแลสุขภาพ</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="ac-gf-directory-column">
-          <input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-responsibility" />
-          <div class="ac-gf-directory-column-section">
-            <label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-responsibility">
-              <h3 class="ac-gf-directory-column-section-title">
-                ค่านิยมของ Apple
-              </h3>
-            </label>
-            <a href="https://www.apple.com/th/#ac-gf-directory-column-section-state-responsibility" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
-              <span class="ac-gf-directory-column-section-anchor-label">เปิดเมนู</span>
-            </a>
-            <a href="https://www.apple.com/th/#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
-              <span class="ac-gf-directory-column-section-anchor-label">ปิดเมนู</span>
-            </a>
-            <ul class="ac-gf-directory-column-section-list">
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/accessibility/" data-analytics-title="accessibility">การช่วยการเข้าถึง</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/environment/" data-analytics-title="environment">สิ่งแวดล้อม</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/privacy/" data-analytics-title="privacy">ความเป็นส่วนตัว</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/supplier-responsibility/" data-analytics-title="supplier responsibility">ความรับผิดชอบของซัพพลายเออร์</a>
-              </li>
-            </ul>
-          </div>
-          <input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-about" />
-          <div class="ac-gf-directory-column-section">
-            <label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-about">
-              <h3 class="ac-gf-directory-column-section-title">
-                เกี่ยวกับ Apple
-              </h3>
-            </label>
-            <a href="https://www.apple.com/th/#ac-gf-directory-column-section-state-about" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
-              <span class="ac-gf-directory-column-section-anchor-label">เปิดเมนู</span>
-            </a>
-            <a href="https://www.apple.com/th/#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
-              <span class="ac-gf-directory-column-section-anchor-label">ปิดเมนู</span>
-            </a>
-            <ul class="ac-gf-directory-column-section-list">
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/newsroom/" data-analytics-title="newsroom">Newsroom</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/leadership/" data-analytics-title="apple leadership">ผู้บริหาร Apple</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/careers/th/" data-analytics-title="career opportunities">โอกาสด้านอาชีพ</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://investor.apple.com/" data-analytics-title="investors" data-analytics-exit-link="">นักลงทุน</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/compliance/" data-analytics-title="ethics and compliance">จริยธรรมและการปฏิบัติตาม</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/apple-events/" data-analytics-title="events">กิจกรรม</a>
-              </li>
-              <li class="ac-gf-directory-column-section-item">
-                <a class="ac-gf-directory-column-section-link" href="https://www.apple.com/th/contact/" data-analytics-title="contact apple">ติดต่อ Apple</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!--googleon: all-->
-      </nav>
-
-      <section class="ac-gf-footer">
-        <div class="ac-gf-footer-shop" x-ms-format-detection="none">
-          อีกหลากหลายวิธีในการเลือกซื้อ:
-          <a href="https://www.apple.com/th/retail/" data-analytics-title="find an apple store">ค้นหา Apple Store</a>
-          หรือ
-          <a href="https://locate.apple.com/th/th/" data-analytics-title="other retailers or resellers" data-analytics-exit-link="">ร้านค้าอื่นๆ</a>
-          ใกล้คุณ <span class="nowrap">หรือโทร. 1800-01-9209</span>
-        </div>
-        <div class="ac-gf-footer-locale">
-          <a class="ac-gf-footer-locale-link" href="https://www.apple.com/choose-country-region/" title="เลือกประเทศหรือภูมิภาค" aria-label="ไทย. เลือกประเทศหรือภูมิภาค" data-analytics-title="choose your country">ไทย</a>
-          <a class="ac-gf-footer-locale-link ac-gf-footer-locale-shop" href="https://www.apple.com/th-en/shop/browse/home_th_en" data-analytics-title="switch language">Shop in
-            English</a>
-        </div>
-        <div class="ac-gf-footer-legal">
-          <div class="ac-gf-footer-legal-copyright">
-            Copyright © 2022 Apple Inc. สงวนสิทธิ์ทุกประการ
-          </div>
-          <div class="ac-gf-footer-legal-links">
-            <a class="ac-gf-footer-legal-link" href="https://www.apple.com/th/privacy/privacy-policy/" data-analytics-title="privacy policy">นโยบายความเป็นส่วนตัว</a>
-            <a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/internet-services/terms/site.html" data-analytics-title="terms of use">ข้อกำหนดการใช้งาน</a>
-            <a class="ac-gf-footer-legal-link" href="https://www.apple.com/th/shop/goto/help/sales_refunds" data-analytics-title="sales and refunds">การขายและการคืนเงิน</a>
-            <a class="ac-gf-footer-legal-link" href="https://www.apple.com/th/legal/" data-analytics-title="legal">ข้อมูลทางกฎหมาย</a>
-            <a class="ac-gf-footer-legal-link" href="https://www.apple.com/th/sitemap/" data-analytics-title="site map">แผนผังเว็บไซต์</a>
-          </div>
-        </div>
-      </section>
-
-      <script type="text/javascript" src="http://localhost/Mini_Project_G4/overview/ac-globalfooter.built.js"></script>
-      <script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@id": "https://www.apple.com/#organization",
-          "@type": "Organization",
-          "name": "Apple",
-          "url": "https://www.apple.com/",
-          "logo": "https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?201809240301",
-          "subOrganization": {
-            "@type": "Organization",
-            "name": "Apple Support",
-            "url": "https://support.apple.com",
-            "@id": "https://support.apple.com/#organization"
-          },
-          "contactPoint": [{
-              "@type": "ContactPoint",
-              "telephone": "+1-800-692-7753",
-              "contactType": "sales",
-              "areaServed": "US"
-            },
-            {
-              "@type": "ContactPoint",
-              "telephone": "+1-800-275-2273",
-              "contactType": "technical support",
-              "areaServed": "US",
-              "availableLanguage": ["EN", "ES"]
-            },
-            {
-              "@type": "ContactPoint",
-              "telephone": "+1-800-275-2273",
-              "contactType": "customer support",
-              "areaServed": "US",
-              "availableLanguage": ["EN", "ES"]
-            }
-          ],
-          "sameAs": [
-            "http://www.wikidata.org/entity/Q312",
-            "https://www.youtube.com/user/Apple",
-            "https://www.linkedin.com/company/apple",
-            "https://www.facebook.com/Apple",
-            "https://www.twitter.com/Apple"
-          ]
-        }
-      </script>
-
-      <script type="text/javascript" src="http://localhost/Mini_Project_G4/overview/localeswitcher.built.js"></script>
-    </div>
-  </footer>
+  <br><br><br>
 
   <script type="application/ld+json">
     {

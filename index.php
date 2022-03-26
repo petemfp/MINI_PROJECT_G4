@@ -39,7 +39,7 @@ if (isset($_GET['logout'])) {
                         </div>
                     </li>
                     <li class="my-nav-item">
-                        <a href="index.php" class="my-nav-link my-nav-link-apple"></a>
+                        <a href="Apple.php" class="my-nav-link my-nav-link-apple"></a>
                     </li>
                     <li class="my-nav-item">
                         <a href="#" class="my-nav-link my-nav-link-bag"></a>
@@ -48,7 +48,7 @@ if (isset($_GET['logout'])) {
                 <!-- /.nav-list nav-list-mobile -->
                 <ul class="my-nav-list my-nav-list-larger">
                     <li class="my-nav-item my-nav-item-hidden">
-                        <a href="index.php" class="my-nav-link my-nav-link-apple"></a>
+                        <a href="Apple.php" class="my-nav-link my-nav-link-apple"></a>
                     </li>
                     <li class="my-nav-item">
                         <a href="store.php" class="my-nav-link">Store</a>
@@ -77,7 +77,7 @@ if (isset($_GET['logout'])) {
                     <li class="my-nav-item">
                         <a href="Accessories.html" class="my-nav-link">Accessories</a>
                     </li>
-                    <!--  <<<<<<< HEAD:index.php  -->
+                    <!--  <<<<<<< HEAD:Apple.php  -->
                     <a href="#" class="my-nav-link">Support</a>
                     </li>
 
@@ -86,16 +86,17 @@ if (isset($_GET['logout'])) {
                         <a href="#" class="my-nav-link">Support</a>
                     </li>
                     <li class="my-nav-item">
-                        <!--  >>>>>>> 0309e109652c4d78bb8439615d61c45932416703:index.html -->
+                        <!--  >>>>>>> 0309e109652c4d78bb8439615d61c45932416703:Apple.php.html -->
                         <a href="#" class="my-nav-link-search"></a>
                     </li>
                     <li class="my-nav-item my-nav-item-hidden ">
                         <a href="#" class="my-nav-link my-nav-link-bag"></a>
                     </li>
+
                     <li class="my-nav-item ">
                         <!--logged information-->
                         <?php if (isset($_SESSION['email'])) : ?>
-                            <p class="fs-4 fw-bold text-danger"> <a href="index.php?logout='1'" style="padding-top:5px;color:red;">logout</a> </p>
+                            <p class="fs-4 fw-bold text-danger"> <a href="Apple.php?logout='1'" style="padding-top:5px;color:red;">logout</a> </p>
                         <?php endif ?>
                     </li>
 
@@ -104,6 +105,7 @@ if (isset($_GET['logout'])) {
             </nav>
         </div>
     </header>
+    
     <!--noti msg-->
     <?php if (isset($_SESSION['success'])) : ?>
 
@@ -157,11 +159,11 @@ if (isset($_GET['logout'])) {
         <div class="my-container">
             <div class="my-title my-title-dark">
                 <h2 class="my-title-heading-watch"></h2>
-                <<<<<<< HEAD:index.php <h3 class="my-title-sub-heading">With the new always-On Retina display. <br>
+                <<<<<<< HEAD:Apple.php <h3 class="my-title-sub-heading">With the new always-On Retina display. <br>
                     You've never seen a watch like this.</h3>
                     =======
                     <h3 class="my-title-sub-heading">With the new always-On Retina display. <br> You've never seen a watch like this.</h3>
-                    >>>>>>> 0309e109652c4d78bb8439615d61c45932416703:index.html
+                    >>>>>>> 0309e109652c4d78bb8439615d61c45932416703:Apple.php.html
                     <p class="my-title-price">From ฿2,590.00/mo</p>
             </div>
             <div class="cta">
