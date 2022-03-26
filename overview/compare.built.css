@@ -642,7 +642,7 @@
     height: 159px;
     background-size: 120px 159px;
     background-repeat: no-repeat;
-    background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_2nd_gen__fw52r8rxrpyu_large.png")
+    background-image: url("images/airpods/compare_airpods_2nd_gen__fw52r8rxrpyu_large.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -650,7 +650,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-2nd-gen {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_2nd_gen__fw52r8rxrpyu_large_2x.png")
+        background-image: url("images/airpods/compare_airpods_2nd_gen__fw52r8rxrpyu_large_2x.png")
     }
 }
 
@@ -660,7 +660,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 130px;
         background-size: 99px 130px;
         background-repeat: no-repeat;
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_2nd_gen__fw52r8rxrpyu_medium.png")
+        background-image: url("images/airpods/compare_airpods_2nd_gen__fw52r8rxrpyu_medium.png")
     }
 }
 
@@ -668,7 +668,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-2nd-gen {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_2nd_gen__fw52r8rxrpyu_medium_2x.png")
+        background-image: url("images/airpods/compare_airpods_2nd_gen__fw52r8rxrpyu_medium_2x.png")
     }
 }
 
@@ -678,7 +678,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 115px;
         background-size: 87px 115px;
         background-repeat: no-repeat;
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_2nd_gen__fw52r8rxrpyu_small.png")
+        background-image: url("images/airpods/compare_airpods_2nd_gen__fw52r8rxrpyu_small.png")
     }
 }
 
@@ -686,7 +686,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-2nd-gen {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_2nd_gen__fw52r8rxrpyu_small_2x.png")
+        background-image: url("images/airpods/compare_airpods_2nd_gen__fw52r8rxrpyu_small_2x.png")
     }
 }
 
@@ -695,7 +695,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     height: 144px;
     background-size: 149px 144px;
     background-repeat: no-repeat;
-    background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_3rd_gen__dyuzfy04ht0m_large.png")
+    background-image: url("images/airpods/compare_airpods_3rd_gen__dyuzfy04ht0m_large.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -703,7 +703,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-3rd-gen {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_3rd_gen__dyuzfy04ht0m_large_2x.png")
+        background-image: url("images/airpods/compare_airpods_3rd_gen__dyuzfy04ht0m_large_2x.png")
     }
 }
 
@@ -713,7 +713,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 110px;
         background-size: 113px 110px;
         background-repeat: no-repeat;
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_3rd_gen__dyuzfy04ht0m_medium.png")
+        background-image: url("images/airpods/compare_airpods_3rd_gen__dyuzfy04ht0m_medium.png")
     }
 }
 
@@ -721,7 +721,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-3rd-gen {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_3rd_gen__dyuzfy04ht0m_medium_2x.png")
+        background-image: url("images/airpods/compare_airpods_3rd_gen__dyuzfy04ht0m_medium_2x.png")
     }
 }
 
@@ -731,7 +731,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 104px;
         background-size: 108px 104px;
         background-repeat: no-repeat;
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_3rd_gen__dyuzfy04ht0m_small.png")
+        background-image: url("images/airpods/compare_airpods_3rd_gen__dyuzfy04ht0m_small.png")
     }
 }
 
@@ -739,7 +739,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-3rd-gen {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_3rd_gen__dyuzfy04ht0m_small_2x.png")
+        background-image: url("images/airpods/compare_airpods_3rd_gen__dyuzfy04ht0m_small_2x.png")
     }
 }
 
@@ -748,7 +748,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     height: 140px;
     background-size: 165px 140px;
     background-repeat: no-repeat;
-    background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_pro__e9uzt0mzviem_large.png")
+    background-image: url("images/airpods/compare_airpods_pro__e9uzt0mzviem_large.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -756,7 +756,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-pro {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_pro__e9uzt0mzviem_large_2x.png")
+        background-image: url("images/airpods/compare_airpods_pro__e9uzt0mzviem_large_2x.png")
     }
 }
 
@@ -766,7 +766,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 95px;
         background-size: 111px 95px;
         background-repeat: no-repeat;
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_pro__e9uzt0mzviem_medium.png")
+        background-image: url("images/airpods/compare_airpods_pro__e9uzt0mzviem_medium.png")
     }
 }
 
@@ -774,7 +774,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-pro {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_pro__e9uzt0mzviem_medium_2x.png")
+        background-image: url("images/airpods/compare_airpods_pro__e9uzt0mzviem_medium_2x.png")
     }
 }
 
@@ -784,7 +784,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 102px;
         background-size: 120px 102px;
         background-repeat: no-repeat;
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_pro__e9uzt0mzviem_small.png")
+        background-image: url("images/airpods/compare_airpods_pro__e9uzt0mzviem_small.png")
     }
 }
 
@@ -792,7 +792,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-pro {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_pro__e9uzt0mzviem_small_2x.png")
+        background-image: url("images/airpods/compare_airpods_pro__e9uzt0mzviem_small_2x.png")
     }
 }
 
@@ -801,7 +801,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     height: 235px;
     background-size: 212px 235px;
     background-repeat: no-repeat;
-    background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_max__b14s2x6q07rm_large.png")
+    background-image: url("images/airpods/compare_airpods_max__b14s2x6q07rm_large.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -809,7 +809,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-max {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_max__b14s2x6q07rm_large_2x.png")
+        background-image: url("images/airpods/compare_airpods_max__b14s2x6q07rm_large_2x.png")
     }
 }
 
@@ -819,7 +819,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 132px;
         background-size: 119px 132px;
         background-repeat: no-repeat;
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_max__b14s2x6q07rm_medium.png")
+        background-image: url("images/airpods/compare_airpods_max__b14s2x6q07rm_medium.png")
     }
 }
 
@@ -827,7 +827,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-max {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_max__b14s2x6q07rm_medium_2x.png")
+        background-image: url("images/airpods/compare_airpods_max__b14s2x6q07rm_medium_2x.png")
     }
 }
 
@@ -837,7 +837,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 149px;
         background-size: 135px 149px;
         background-repeat: no-repeat;
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_max__b14s2x6q07rm_small.png")
+        background-image: url("images/airpods/compare_airpods_max__b14s2x6q07rm_small.png")
     }
 }
 
@@ -845,7 +845,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     .compare-module-wrapper .image-airpods-max {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/compare_airpods_max__b14s2x6q07rm_small_2x.png")
+        background-image: url("images/airpods/compare_airpods_max__b14s2x6q07rm_small_2x.png")
     }
 }
 
@@ -854,7 +854,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     height: 38px;
     background-size: 40px 38px;
     background-repeat: no-repeat;
-    background-image: url("/v/airpods/shared/compare/a/images/compare/icon_spatial_audio__kmoa5vlnkdmm_large.png")
+    background-image: url("images/airpods/icon_spatial_audio__kmoa5vlnkdmm_large.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -862,7 +862,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .compare-module-wrapper .image-spatial-audio {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/icon_spatial_audio__kmoa5vlnkdmm_large_2x.png")
+        background-image: url("images/airpods/icon_spatial_audio__kmoa5vlnkdmm_large_2x.png")
     }
 }
 
@@ -871,7 +871,7 @@ only screen and (min-resolution: 1.5dppx),
     height: 34px;
     background-size: 26px 34px;
     background-repeat: no-repeat;
-    background-image: url("/v/airpods/shared/compare/a/images/compare/icon_transparency__fdepuo39ruum_large.png")
+    background-image: url("images/airpods/icon_transparency__fdepuo39ruum_large.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -879,7 +879,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .compare-module-wrapper .image-transparency {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/icon_transparency__fdepuo39ruum_large_2x.png")
+        background-image: url("images/airpods/icon_transparency__fdepuo39ruum_large_2x.png")
     }
 }
 
@@ -888,7 +888,7 @@ only screen and (min-resolution: 1.5dppx),
     height: 41px;
     background-size: 28px 41px;
     background-repeat: no-repeat;
-    background-image: url("/v/airpods/shared/compare/a/images/compare/icon_water_resistent__6yj92ikcoiaa_large.png")
+    background-image: url("images/airpods/icon_water_resistent__6yj92ikcoiaa_large.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -896,7 +896,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .compare-module-wrapper .image-sweat-and-water {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/icon_water_resistent__6yj92ikcoiaa_large_2x.png")
+        background-image: url("images/airpods/icon_water_resistent__6yj92ikcoiaa_large_2x.png")
     }
 }
 
@@ -905,7 +905,7 @@ only screen and (min-resolution: 1.5dppx),
     height: 34px;
     background-size: 26px 34px;
     background-repeat: no-repeat;
-    background-image: url("/v/airpods/shared/compare/a/images/compare/icon_noise_cancellation__dte2s5scoscy_large.png")
+    background-image: url("images/airpods/icon_noise_cancellation__dte2s5scoscy_large.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -913,7 +913,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .compare-module-wrapper .image-anc {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/icon_noise_cancellation__dte2s5scoscy_large_2x.png")
+        background-image: url("images/airpods/icon_noise_cancellation__dte2s5scoscy_large_2x.png")
     }
 }
 
@@ -922,7 +922,7 @@ only screen and (min-resolution: 1.5dppx),
     height: 48px;
     background-size: 31px 48px;
     background-repeat: no-repeat;
-    background-image: url("/v/airpods/shared/compare/a/images/compare/icon_wireless_charging__e0t56m5mbxci_large.png")
+    background-image: url("images/airpods/icon_wireless_charging__e0t56m5mbxci_large.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -930,7 +930,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .compare-module-wrapper .image-charging {
-        background-image: url("/v/airpods/shared/compare/a/images/compare/icon_wireless_charging__e0t56m5mbxci_large_2x.png")
+        background-image: url("images/airpods/icon_wireless_charging__e0t56m5mbxci_large_2x.png")
     }
 }
 
