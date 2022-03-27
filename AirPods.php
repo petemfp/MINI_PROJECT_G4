@@ -11,7 +11,6 @@ if (isset($_GET['logout'])) {
   unset($_SESSION['email']);
   header('location: login.php');
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -176,7 +175,7 @@ if (isset($_GET['logout'])) {
         </li>
 
         <li class="ac-gn-item ac-gn-item-menu ac-gn-accessories">
-          <a class="ac-gn-link ac-gn-link-accessories" href="Accessories.html" data-analytics-title="accessories">
+          <a class="ac-gn-link ac-gn-link-accessories" href="Accessories.php" data-analytics-title="accessories">
             <span class="ac-gn-link-text">อุปกรณ์เสริม</span>
           </a>
         </li>
@@ -207,7 +206,7 @@ if (isset($_GET['logout'])) {
 
         <li class="ac-gn-bagview-nav-item-signOut">
           <a href="index.php?logout='1'" class="ac-gn-bagview-button2 ac-gn-bagview-nav-link-signOut">
-            ออกจากระบบ
+            Logout
             <!--logged information-->
             <?php if (isset($_SESSION['email'])) : ?>
               <p class="fs-4 fw-bold text-danger"></p>
